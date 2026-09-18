@@ -12,7 +12,7 @@ def handle_incoming_messages(conn, addr):
             if not data:
                 break
             message = data.decode()
-            print(f"\nMessage received from {addr[0]}\nSender's Port: {addr[1]}\nMessage: \"{message}\"\n> ", end=">
+            print(f"\nMessage received from {addr[0]}\nSender's Port: {addr[1]}\nMessage: \"{message}\"\n> ", end="")
         except:
             break
 
